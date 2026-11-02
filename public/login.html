@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Entrar · Pontes de Carreira</title>
+<link rel="stylesheet" href="/css/base.css">
+<style>body{display:grid;place-items:center;min-height:100vh;padding:16px}form{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;width:100%;max-width:340px;display:grid;gap:14px}h1{font-size:20px}input{width:100%}button{background:var(--accent);color:#fff;border:0;border-radius:var(--radius-sm);padding:10px;font:inherit;font-weight:600;cursor:pointer}.err{color:var(--error);font-size:13px}</style></head>
+<body><form method="post" action="/login"><h1>Pontes de Carreira</h1>
+<label>Senha<input type="password" name="senha" autofocus required autocomplete="current-password"></label>
+<div class="err" id="e"></div><button>Entrar</button></form>
+<script>if(location.search.includes('erro'))document.getElementById('e').textContent='Senha incorreta.';</script></body></html>
