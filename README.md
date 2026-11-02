@@ -4,7 +4,7 @@
 
 Projeto pessoal em Node.js/Express, SQLite e JavaScript puro no front-end, criado por **Wellington Gois** (engenheiro de dados) com apoio do Claude (Anthropic) como par de programação. Nasceu como módulo de um assistente maior e foi extraído para este repositório. Histórico de decisões em [HISTORICO.md](docs/HISTORICO.md).
 
-*English summary at the [end](#english-summary).*
+*English summary at the [end](#english-summary). Full write-up: [docs/ARTICLE-EN.md](docs/ARTICLE-EN.md).*
 
 ## O problema
 
